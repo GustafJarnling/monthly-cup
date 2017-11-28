@@ -29,17 +29,8 @@ export default class NavBarList extends React.Component {
   }
   render() {
     return (
-      <div className="nav-bar-above">
-        <div className="container w-container">
-          <div className="nav-bar-component-2">
-            <div className="nav-bar-component-1">
-              <a href="/" className="nav-bar-logo-wrapper w-inline-block">
-                <img src="images/master3x.png" className="nav-bar-logo"/>
-              </a>
-              {this.renderMenuListItem()}
-            </div>
-          </div>
-        </div>
+      <div className="nav-bar-component-5 w-hidden-medium w-hidden-small w-hidden-tiny">
+        {this.renderMenuListItem()}
       </div>
     );
   }

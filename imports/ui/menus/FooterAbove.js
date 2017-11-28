@@ -1,5 +1,7 @@
 import React from 'react';
 
+import FooterLogo from './FooterLogo';
+
 export default class FooterAbove extends React.Component {
   render() {
     return (
@@ -7,9 +9,7 @@ export default class FooterAbove extends React.Component {
         <div className="container w-container">
           <div className="footer-div-1">
             <div className="footer-div-2 footer-div-2-a">
-              <a href="#" className="footer-logo-link-box w-inline-block">
-                <img src="images/master3x.png" className="footer-logo-pic"/>
-              </a>
+              <FooterLogo src="images/master3x.png"/>
             </div>
             <div className="footer-div-2 footer-div-2-bb">
               <div>
