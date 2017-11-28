@@ -2,7 +2,7 @@ import React from 'react';
 import { Router, Route, browserHistory } from 'react-router';
 
 import App from '../ui/App';
-import Faq from '../ui/faq/Faq';
+import Faq from '../ui/pages/Faq';
 import NotFound from '../ui/NotFound';
 
 export const routes = (

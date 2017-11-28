@@ -1,15 +1,17 @@
 import React from 'react';
 
-import FaqsAddItem from './FaqsAddItem';
+import NavBarAbove from '../partials/NavBarAbove';
 import SimpleHeader from '../partials/SimpleHeader';
-import FaqsList from './FaqsList';
+// import FaqsAddItem from '../faq/FaqsAddItem';
+import FaqsList from '../faq/FaqsList';
 
 export default class Faq extends React.Component {
   render() {
     return (
       <div>
+        <NavBarAbove/>
         <SimpleHeader title="Frequently Asked Questions"/>
-        <FaqsAddItem/>
+        {/* <FaqsAddItem/> */}
         <FaqsList/>
       </div>
     );
