@@ -1,7 +1,7 @@
 import React from 'react';
 
-import NavBarComponent1 from '../menus/NavBarComponent1';
-import NavBarComponent4 from '../menus/NavBarComponent4';
+import NavBarAboveLeft from './NavBarAboveLeft';
+import NavBarAboveRight from './NavBarAboveRight';
 
 export default class NavBarAbove extends React.Component {
   render() {
@@ -9,10 +9,11 @@ export default class NavBarAbove extends React.Component {
       <div className="nav-bar-above">
         <div className="container w-container">
           <div className="nav-bar-component-2">
-            <NavBarComponent1/>
-            <NavBarComponent4/>
+            <NavBarAboveLeft/>
+            <NavBarAboveRight/>
           </div>
         </div>
+        <div className="floating-nav-bar-trigger"></div>
       </div>
     );
   }

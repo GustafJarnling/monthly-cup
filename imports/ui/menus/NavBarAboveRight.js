@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class NavBarComponent4 extends React.Component {
+export default class NavBarAboveRight extends React.Component {
   render() {
     return (
       <div className="nav-bar-component-4">
@@ -17,7 +17,8 @@ export default class NavBarComponent4 extends React.Component {
           </div>
         </div>
         <div className="nav-bar-component-3">
-          <div className="nav-bar-icon-link-box"><img src="images/Pic-no-available3x.png" className="nav-bar-icon-pic"/>
+          <div className="nav-bar-icon-link-box">
+            <img src="images/Pic-no-available3x.png" className="nav-bar-icon-pic"/>
             <div className="notification-bubble-1">
               <div>12</div>
             </div>
@@ -35,7 +36,9 @@ export default class NavBarComponent4 extends React.Component {
               <div className="cart-component-3">
                 <div className="cart-component-4">
                   <div className="cart-component-5">
-                    <div className="cart-component-6"><img src="images/Group-193x.png" srcset="images/Group-193x-p-500.png 500w, images/Group-193x.png 585w" sizes="100vw"/></div>
+                    <div className="cart-component-6">
+                      <img src="images/Group-193x.png" srcSet="images/Group-193x-p-500.png 500w, images/Group-193x.png 585w" sizes="100vw"/>
+                    </div>
                     <div className="p-tag">MenstrualCup - Size Plus</div>
                   </div>
                   <div className="cart-component-7 cart-component-7-variant-a">
@@ -62,7 +65,9 @@ export default class NavBarComponent4 extends React.Component {
                 </div>
                 <div className="cart-component-4">
                   <div className="cart-component-5">
-                    <div className="cart-component-6"><img src="images/Group-193x.png" srcset="images/Group-193x-p-500.png 500w, images/Group-193x.png 585w" sizes="100vw"/></div>
+                    <div className="cart-component-6">
+                      <img src="images/Group-193x.png" srcSet="images/Group-193x-p-500.png 500w, images/Group-193x.png 585w" sizes="100vw"/>
+                    </div>
                     <div className="p-tag">MenstrualCup - Size Plus</div>
                   </div>
                   <div className="cart-component-7 cart-component-7-variant-a">

@@ -1,12 +1,14 @@
 import React from 'react';
 
-import NavBarAbove from '../partials/NavBarAbove';
+import NavBar from '../partials/NavBar';
+import Footer from '../partials/Footer';
 
 export default class Home extends React.Component {
   render() {
     return (
       <div>
-        <NavBarAbove/>
+        <NavBar/>
+        <Footer/>
       </div>
     );
   }
