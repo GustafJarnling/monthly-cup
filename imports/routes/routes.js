@@ -1,9 +1,9 @@
 import React from 'react';
 import { Router, Route, browserHistory } from 'react-router';
 
-import App from '../ui/App';
-import Faq from '../ui/pages/Faq';
-import NotFound from '../ui/pages/NotFound';
+import App from '../App';
+import Faq from '../client/layouts/Faq';
+import NotFound from '../client/layouts/NotFound';
 
 export const routes = (
   <Router history={browserHistory}>
