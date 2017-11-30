@@ -11,8 +11,9 @@ const NavBarListItem = (props) => {
 };
 
 NavBarListItem.propTypes = {
-  path: React.PropTypes.string.isRequired,
-  title: React.PropTypes.string.isRequired
+  name: React.PropTypes.string.isRequired,
+  title: React.PropTypes.string.isRequired,
+  path: React.PropTypes.string.isRequired
 };
 
 export default NavBarListItem;
