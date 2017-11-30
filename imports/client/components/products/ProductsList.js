@@ -22,12 +22,4 @@ const ProductsList = (props) => {
   );
 };
 
-ProductsList.propTypes = {
-  _id: React.PropTypes.string.isRequired,
-  title: React.PropTypes.string.isRequired,
-  image_src: React.PropTypes.string.isRequired,
-  image_srcset: React.PropTypes.string.isRequired,
-  description: React.PropTypes.string.isRequired
-};
-
 export default ProductsList;
