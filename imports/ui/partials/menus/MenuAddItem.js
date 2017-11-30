@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { MenuItems } from '../../api/menuItems';
+import { MenuItems } from '../../../../api/menuItems';
 
 export default class MenuAddItem extends React.Component {
   onSubmit(e) {

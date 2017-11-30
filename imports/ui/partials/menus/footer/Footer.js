@@ -1,7 +1,7 @@
 import React from 'react';
 
-import FooterAbove from '../menus/FooterAbove';
-import FooterBelow from '../menus/FooterBelow';
+import FooterAbove from './FooterAbove';
+import FooterBelow from './FooterBelow';
 
 export default () => {
   return (

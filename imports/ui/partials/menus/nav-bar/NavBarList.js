@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tracker } from 'meteor/tracker';
 
-import { MenuItems } from '../../api/menuItems';
+import { MenuItems } from '../../../../api/menuItems';
 import NavBarListItem from './NavBarListItem';
 
 export default class NavBarList extends React.Component {

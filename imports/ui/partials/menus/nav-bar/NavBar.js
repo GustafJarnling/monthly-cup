@@ -1,7 +1,7 @@
 import React from 'react';
 
-import NavBarAbove from '../menus/NavBarAbove';
-import NavBarBelow from '../menus/NavBarBelow';
+import NavBarAbove from './NavBarAbove';
+import NavBarBelow from './NavBarBelow';
 
 export default () => {
   return (
