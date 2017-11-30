@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tracker } from 'meteor/tracker';
 
-import { Faqs } from '../../api/faqs';
+import { Faqs } from '../../../api/faqs';
 import FaqsListItem from './FaqsListItem';
 
 export default class FaqsList extends React.Component {

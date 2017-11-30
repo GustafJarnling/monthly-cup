@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Faqs } from '../../api/faqs';
+import { Faqs } from '../../../api/faqs';
 
 export default class FaqsAddItem extends React.Component {
   onSubmit(e) {
