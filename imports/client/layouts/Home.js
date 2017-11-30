@@ -3,7 +3,7 @@ import React from 'react';
 import NavBar from '../components/menus/nav-bar/NavBar';
 import HeroAd from '../components/heroes/HeroAd';
 import ActionBigSocial from '../components/actions/ActionBigSocial';
-import Products from '../components/partials/Products';
+import ProductsListContainer from '../components/products/ProductsListContainer';
 import Reviews from '../components/partials/Reviews';
 import Seperator from '../components/partials/Seperator';
 import HeroInfo from '../components/heroes/HeroInfo';
@@ -16,7 +16,7 @@ export default () => {
       <NavBar/>
       <HeroAd/>
       <ActionBigSocial/>
-      <Products/>
+      <ProductsListContainer/>
       <Reviews/>
       <Seperator/>
       <HeroInfo/>
