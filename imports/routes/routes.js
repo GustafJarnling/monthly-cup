@@ -3,7 +3,7 @@ import { Router, Route, browserHistory } from 'react-router';
 
 import App from '../ui/App';
 import Faq from '../ui/pages/Faq';
-import NotFound from '../ui/NotFound';
+import NotFound from '../ui/pages/NotFound';
 
 export const routes = (
   <Router history={browserHistory}>
