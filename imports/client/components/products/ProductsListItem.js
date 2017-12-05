@@ -14,7 +14,7 @@ const ProductsListItem = (props) => {
           <div className="p-big">{props.description}</div>
         </a>
         <div className="box-1-component-2">
-          <a href="#" className="button-1 w-button">{props.button_text}</a>
+          <a href={props.button_url} className="button-1 w-button">{props.button_text}</a>
         </div>
       </div>
     </div>
@@ -27,7 +27,8 @@ ProductsListItem.propTypes = {
   image_src: React.PropTypes.string.isRequired,
   image_srcset: React.PropTypes.string.isRequired,
   description: React.PropTypes.string.isRequired,
-  button_text: React.PropTypes.string.isRequired
+  button_text: React.PropTypes.string.isRequired,
+  button_url: React.PropTypes.string.isRequired
 };
 
 export default ProductsListItem;

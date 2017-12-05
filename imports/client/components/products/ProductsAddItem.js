@@ -9,16 +9,18 @@ export default class ProductsAddItem extends React.Component {
     const image_srcset = this.refs.image_srcset.value.trim();
     const description = this.refs.description.value.trim();
     const button_text = this.refs.button_text.value.trim();
+    const button_url = this.refs.button_url.value.trim();
 
     e.preventDefault();
 
-    if(title && image_src && image_srcset && description) {
-      Products.insert({ title, image_src, image_srcset, description });
+    if(title && image_src && image_srcset && description && button_text && button_url) {
+      Products.insert({ title, image_src, image_srcset, description, button_text, button_url });
       this.refs.title.value = '';
       this.refs.image_src.value = '';
       this.refs.image_srcset.value = '';
       this.refs.description.value = '';
       this.refs.button_text.value = '';
+      this.refs.button_url.value = '';
     }
   }
   render() {
@@ -33,6 +35,7 @@ export default class ProductsAddItem extends React.Component {
                 <input type="text" ref="image_srcset" placeholder="Image Source Set"/><br/>
                 <input type="text" ref="description" placeholder="Description"/><br/>
                 <input type="text" ref="button_text" placeholder="Button Text"/><br/>
+                <input type="text" ref="button_url" placeholder="Button URL"/><br/>
                 <button>Add Product</button>
               </form>
             </div>
