@@ -2,7 +2,7 @@ import React from 'react';
 
 import { HeroAds } from '../../../../api/hero-ads';
 
-export default class HeroAddItem extends React.Component {
+export default class HeroAdAddItem extends React.Component {
   onSubmit(e) {
     const title = this.refs.title.value.trim();
     const description = this.refs.description.value.trim();

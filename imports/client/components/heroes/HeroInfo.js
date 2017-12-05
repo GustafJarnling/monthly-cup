@@ -1,5 +1,7 @@
 import React from 'react';
 
+import HeroInfoAddItem from './info/HeroInfoAddItem';
+
 export default () => {
   return (
     <div className="section-1">
@@ -7,6 +9,9 @@ export default () => {
         <div className="content-wrapper-1">
           <div className="content-component-1">
             <h2>Resources</h2>
+          </div>
+          <div>
+            <HeroInfoAddItem/>
           </div>
         </div>
         <div className="content-wrapper-1 content-wrapper-1-is-last">
