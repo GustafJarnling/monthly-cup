@@ -2,15 +2,10 @@ import React from 'react';
 
 import ReviewsListItem from './ReviewsListItem';
 
-// import ReviewsAddItem from './ReviewsAddItem';
-
 const ReviewsList = (props) => {
   return (
     <div className="section-1">
       <div className="container w-container">
-        {/* <div className="content-wrapper-1">
-          <ReviewsAddItem/>
-        </div> */}
         <div className="content-wrapper-1">
           <div className="content-component-1">
             <h2>Happy customers</h2>
