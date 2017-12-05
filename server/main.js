@@ -1,5 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 
+import '../imports/api/actions-big-button';
 import '../imports/api/actions-big-social';
 import '../imports/api/actions-small';
 import '../imports/api/faqs';
