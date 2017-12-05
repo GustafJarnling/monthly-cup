@@ -7,7 +7,7 @@ import ProductsListContainer from '../components/products/ProductsListContainer'
 import ReviewsListContainer from '../components/reviews/ReviewsListContainer';
 import Seperator from '../components/partials/Seperator';
 import HeroInfo from '../components/heroes/HeroInfo';
-import ActionTwoSmall from '../components/actions/ActionTwoSmall';
+import ActionsSmallContainer from '../components/actions/small/ActionsSmallContainer';
 import Footer from '../components/menus/footer/Footer';
 
 export default () => {
@@ -20,7 +20,7 @@ export default () => {
       <ReviewsListContainer/>
       <Seperator/>
       <HeroInfo/>
-      <ActionTwoSmall/>
+      <ActionsSmallContainer/>
       <Footer/>
     </div>
   );
