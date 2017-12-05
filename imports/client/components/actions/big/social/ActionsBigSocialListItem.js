@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ActionsBigListItem = (props) => {
+const ActionsBigSocialListItem = (props) => {
   return (
     <div className="call-of-action-component-2">
       <div className="call-of-action-component-3">
@@ -40,10 +40,10 @@ const ActionsBigListItem = (props) => {
   );
 };
 
-ActionsBigListItem.propTypes = {
+ActionsBigSocialListItem.propTypes = {
   _id: React.PropTypes.string.isRequired,
   title: React.PropTypes.string.isRequired,
   description: React.PropTypes.string.isRequired,
 };
 
-export default ActionsBigListItem;
+export default ActionsBigSocialListItem;

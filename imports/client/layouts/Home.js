@@ -2,7 +2,7 @@ import React from 'react';
 
 import NavBar from '../components/menus/nav-bar/NavBar';
 import HeroAdContainer from '../components/heroes/ad/HeroAdContainer';
-import ActionsBigContainer from '../components/actions/big/ActionsBigContainer';
+import ActionsBigSocialContainer from '../components/actions/big/social/ActionsBigSocialContainer';
 import ProductsListContainer from '../components/products/ProductsListContainer';
 import ReviewsListContainer from '../components/reviews/ReviewsListContainer';
 import Seperator from '../components/partials/Seperator';
@@ -15,7 +15,7 @@ export default () => {
     <div>
       <NavBar/>
       <HeroAdContainer/>
-      <ActionsBigContainer/>
+      <ActionsBigSocialContainer/>
       <ProductsListContainer/>
       <ReviewsListContainer/>
       <Seperator/>
