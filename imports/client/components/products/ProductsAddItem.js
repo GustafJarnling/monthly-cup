@@ -8,6 +8,7 @@ export default class ProductsAddItem extends React.Component {
     const image_src = this.refs.image_src.value.trim();
     const image_srcset = this.refs.image_srcset.value.trim();
     const description = this.refs.description.value.trim();
+    const button_text = this.refs.button_text.value.trim();
 
     e.preventDefault();
 
@@ -17,6 +18,7 @@ export default class ProductsAddItem extends React.Component {
       this.refs.image_src.value = '';
       this.refs.image_srcset.value = '';
       this.refs.description.value = '';
+      this.refs.button_text.value = '';
     }
   }
   render() {
@@ -30,6 +32,7 @@ export default class ProductsAddItem extends React.Component {
                 <input type="text" ref="image_src" placeholder="Image Source"/><br/>
                 <input type="text" ref="image_srcset" placeholder="Image Source Set"/><br/>
                 <input type="text" ref="description" placeholder="Description"/><br/>
+                <input type="text" ref="button_text" placeholder="Button Text"/><br/>
                 <button>Add Product</button>
               </form>
             </div>
