@@ -1,7 +1,5 @@
 import React from 'react';
 
-import HeroAddItem from './HeroAddItem';
-
 const HeroAdListItem = (props) => {
   return (
     <div className="hero-section-component-2">
