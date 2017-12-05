@@ -1,7 +1,7 @@
 import React from 'react';
 
 import NavBar from '../components/menus/nav-bar/NavBar';
-import HeroAd from '../components/heroes/HeroAd';
+import HeroAdContainer from '../components/heroes/ad/HeroAdContainer';
 import ActionBigSocial from '../components/actions/ActionBigSocial';
 import ProductsListContainer from '../components/products/ProductsListContainer';
 import ReviewsListContainer from '../components/reviews/ReviewsListContainer';
@@ -14,7 +14,7 @@ export default () => {
   return (
     <div>
       <NavBar/>
-      <HeroAd/>
+      <HeroAdContainer/>
       <ActionBigSocial/>
       <ProductsListContainer/>
       <ReviewsListContainer/>

@@ -1,6 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 
 import '../imports/api/faqs';
+import '../imports/api/hero-ads';
 import '../imports/api/menuItems';
 import '../imports/api/products';
 import '../imports/api/reviews';
