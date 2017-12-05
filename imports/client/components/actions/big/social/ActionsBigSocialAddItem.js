@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { ActionsBig } from '../../../../api/actions-big';
+import { ActionsBigSocial } from '../../../../api/actions-big-social';
 
-export default class ActionsBigAddItem extends React.Component {
+export default class ActionsBigSocialAddItem extends React.Component {
   onSubmit(e) {
     const title = this.refs.title.value.trim();
     const description = this.refs.description.value.trim();
@@ -10,7 +10,7 @@ export default class ActionsBigAddItem extends React.Component {
     e.preventDefault();
 
     if(title && description) {
-      ActionsBig.insert({ title, description });
+      ActionsBigSocial.insert({ title, description });
       this.refs.title.value = '';
       this.refs.description.value = '';
     }
