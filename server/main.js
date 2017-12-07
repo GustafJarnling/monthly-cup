@@ -8,6 +8,7 @@ import '../imports/api/faqs';
 import '../imports/api/hero-ads';
 import '../imports/api/hero-infos';
 import '../imports/api/menuItems';
+import '../imports/api/not-founds';
 import '../imports/api/products';
 import '../imports/api/reviews';
 
