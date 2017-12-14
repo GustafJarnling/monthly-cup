@@ -25,6 +25,7 @@ ProductsListItem.propTypes = {
   _id: React.PropTypes.string.isRequired,
   title: React.PropTypes.string.isRequired,
   slogan: React.PropTypes.string.isRequired,
+  images: React.PropTypes.array.isRequired
 };
 
 export default ProductsListItem;

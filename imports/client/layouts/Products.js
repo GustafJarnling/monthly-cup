@@ -29,9 +29,7 @@ export default () => {
       </div>
       <div className="section-1">
         <div className="container w-container">
-          <div className="grid-wrapper-1">
-            <ProductsListContainer/>
-          </div>
+          <ProductsListContainer/>
         </div>
       </div>
       <Seperator/>
