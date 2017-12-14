@@ -7,7 +7,7 @@ const ProductSingle = (props) => {
   return (
     <div>
       <ProductSingleInfo
-        title={props.title}
+        name={props.name}
         images={props.images}
         currency={props.price[0].currency_short}
         price_single={props.price[0].price_single}

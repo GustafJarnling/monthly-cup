@@ -11,7 +11,7 @@ const ProductSingleInfo = (props) => {
         <div className="box-4">
           <div className="box-4-component-1">
             <div className="box-4-component-2">
-              <h3>{props.title}</h3>
+              <h3>{props.name}</h3>
             </div>
             {/* Heart product */}
             <div className="box-4-component-3">
