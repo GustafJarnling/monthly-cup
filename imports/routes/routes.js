@@ -7,6 +7,7 @@ import Faq from '../client/layouts/Faq';
 import NotFound from '../client/layouts/NotFound';
 import Product from '../client/layouts/Product';
 import Products from '../client/layouts/Products';
+import WhichCupShouldIHave from '../client/layouts/WhichCupShouldIHave';
 
 export const routes = (
   <Router history={browserHistory}>
@@ -15,6 +16,7 @@ export const routes = (
     <Route path="/faq" component={Faq}/>
     <Route path="/product" component={Product}/>
     <Route path="/products" component={Products}/>
+    <Route path="/which-cup-should-i-have" component={WhichCupShouldIHave}/>
     <Route path="*" component={NotFound}/>
   </Router>
 );
