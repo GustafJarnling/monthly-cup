@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProductDescriptionItem = (props) => {
+const ProductsSingleDescriptionItem = (props) => {
   return (
     <div className="box-6">
       <div className="box-6-component-1">
@@ -13,4 +13,4 @@ const ProductDescriptionItem = (props) => {
   );
 };
 
-export default ProductDescriptionItem;
+export default ProductsSingleDescriptionItem;

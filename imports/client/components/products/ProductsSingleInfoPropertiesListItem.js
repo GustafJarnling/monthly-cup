@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProductPropertiesListItem = (props) => {
+const ProductsSingleInfoPropertiesListItem = (props) => {
   return (
     <div className="box-4-component-16">
       <div className="box-4-component-14">
@@ -15,4 +15,4 @@ const ProductPropertiesListItem = (props) => {
   );
 };
 
-export default ProductPropertiesListItem;
+export default ProductsSingleInfoPropertiesListItem;

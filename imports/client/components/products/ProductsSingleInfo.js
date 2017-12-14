@@ -1,10 +1,10 @@
 import React from 'react';
 
-import ProductPropertiesList from './ProductPropertiesList';
-import ProductSlides from './ProductSlides';
-import ProductThumbs from './ProductThumbs';
+import ProductsSingleInfoPropertiesList from './ProductsSingleInfoPropertiesList';
+import ProductsSingleInfoSlides from './ProductsSingleInfoSlides';
+import ProductsSingleInfoThumbs from './ProductsSingleInfoThumbs';
 
-const ProductSingleInfo = (props) => {
+const ProductsSingleInfo = (props) => {
   return (
     <div className="section-2">
       <div className="container w-container">
@@ -92,7 +92,7 @@ const ProductSingleInfo = (props) => {
                       </div>
                     </div>
                   </div>
-                  <ProductPropertiesList properties={props.properties}/>
+                  <ProductsSingleInfoPropertiesList properties={props.properties}/>
                 </div>
                 {/* Button to buy and amount toggle */}
                 <div className="box-5">
@@ -144,8 +144,8 @@ const ProductSingleInfo = (props) => {
                 </div>
               </div>
               <div className="box-4-component-17">
-                <ProductSlides images={props.images}/>
-                <ProductThumbs images={props.images}/>
+                <ProductsSingleInfoSlides images={props.images}/>
+                <ProductsSingleInfoThumbs images={props.images}/>
               </div>
             </div>
           </div>
@@ -155,4 +155,4 @@ const ProductSingleInfo = (props) => {
   );
 };
 
-export default ProductSingleInfo;
+export default ProductsSingleInfo;

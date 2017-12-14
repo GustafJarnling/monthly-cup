@@ -1,8 +1,8 @@
 import React from 'react';
 
-import ProductDescriptionList from './ProductDescriptionList';
+import ProductsSingleDescriptionList from './ProductsSingleDescriptionList';
 
-const ProductSingleDescription = (props) => {
+const ProductsSingleDescription = (props) => {
   return (
     <div className="section-1">
       <div className="container w-container">
@@ -17,10 +17,10 @@ const ProductSingleDescription = (props) => {
             <div className="p-big">{props.description}</div>
           </div>
         </div>
-        <ProductDescriptionList details={props.details}/>
+        <ProductsSingleDescriptionList details={props.details}/>
       </div>
     </div>
   );
 };
 
-export default ProductSingleDescription;
+export default ProductsSingleDescription;

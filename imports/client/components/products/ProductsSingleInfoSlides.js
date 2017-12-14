@@ -1,15 +1,15 @@
 import React from 'react';
 
-import ProductSlidesItem from './ProductSlidesItem';
+import ProductsSingleInfoSlidesItem from './ProductsSingleInfoSlidesItem';
 
-const ProductSlides = (props) => {
+const ProductsSingleInfoSlides = (props) => {
   return (
     <div className="box-4-component-18">
       {props.images.map((image) => {
         let index = props.images.indexOf(image);
         if (index === 0) {
           return (
-            <ProductSlidesItem
+            <ProductsSingleInfoSlidesItem
               key={index}
               classes="div-block-255 slide-1"
               {...image}
@@ -17,7 +17,7 @@ const ProductSlides = (props) => {
           );
         } else if (index === 1) {
           return (
-            <ProductSlidesItem
+            <ProductsSingleInfoSlidesItem
               key={index}
               classes="div-block-255 slide-2"
               {...image}
@@ -25,7 +25,7 @@ const ProductSlides = (props) => {
           );
         } else {
           return (
-            <ProductSlidesItem
+            <ProductsSingleInfoSlidesItem
               key={index}
               classes="slide-3 slide-wrapper"
               {...image}
@@ -37,4 +37,4 @@ const ProductSlides = (props) => {
   );
 };
 
-export default ProductSlides;
+export default ProductsSingleInfoSlides;

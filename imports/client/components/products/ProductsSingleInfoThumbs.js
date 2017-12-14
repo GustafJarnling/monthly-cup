@@ -1,14 +1,14 @@
 import React from 'react';
 
-import ProductThumbsItem from './ProductThumbsItem';
+import ProductsSingleInfoThumbsItem from './ProductsSingleInfoThumbsItem';
 
-const ProductThumbs = (props) => {
+const ProductsSingleInfoThumbs = (props) => {
   return (
     <div className="box-4-component-19">
       <div className="box-4-component-20">
         {props.images.map((image) => {
           return (
-            <ProductThumbsItem
+            <ProductsSingleInfoThumbsItem
               key={props.images.indexOf(image)}
               {...image}
             />
@@ -19,4 +19,4 @@ const ProductThumbs = (props) => {
   );
 };
 
-export default ProductThumbs;
+export default ProductsSingleInfoThumbs;

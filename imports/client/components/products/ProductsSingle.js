@@ -1,12 +1,12 @@
 import React from 'react';
 
-import ProductSingleInfo from './ProductSingleInfo';
-import ProductSingleDescription from './ProductSingleDescription';
+import ProductsSingleInfo from './ProductsSingleInfo';
+import ProductsSingleDescription from './ProductsSingleDescription';
 
-const ProductSingle = (props) => {
+const ProductsSingle = (props) => {
   return (
     <div>
-      <ProductSingleInfo
+      <ProductsSingleInfo
         name={props.name}
         images={props.images}
         currency={props.price[0].currency_short}
@@ -14,7 +14,7 @@ const ProductSingle = (props) => {
         price_subscription={props.price[0].price_subscription}
         properties={props.properties}
       />
-      <ProductSingleDescription
+      <ProductsSingleDescription
         title="Product description"
         description={props.description}
         details={props.details}
@@ -23,4 +23,4 @@ const ProductSingle = (props) => {
   );
 };
 
-export default ProductSingle;
+export default ProductsSingle;

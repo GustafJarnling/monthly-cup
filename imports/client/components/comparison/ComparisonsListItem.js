@@ -8,7 +8,7 @@ const ComparisonsListItem = (props) => {
           <h4>{props.size}</h4>
         </div>
         <div className="box-9-component-3 box-9-component-3-is-second">
-          <img src={props.image_src} srcset={props.image_srcSet} sizes="(max-width: 479px) 100vw, (max-width: 767px) 212px, 21vw" className="box-9-component-6"/>
+          <img src={props.image_src} srcSet={props.image_srcSet} sizes="(max-width: 479px) 100vw, (max-width: 767px) 212px, 21vw" className="box-9-component-6"/>
         </div>
         <div className="box-9-component-3 box-9-component-3-is-third">
           <div className="p-big">{props.description}</div>

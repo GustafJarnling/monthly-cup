@@ -2,9 +2,9 @@ import React from 'react';
 import { Tracker } from 'meteor/tracker';
 
 import { Products } from '../../../api/products';
-import ProductSingleList from './ProductSingleList';
+import ProductsSingleList from './ProductsSingleList';
 
-export default class ProductSingleContainer extends React.Component {
+export default class ProductsSingleContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,6 +21,6 @@ export default class ProductSingleContainer extends React.Component {
     this.tracker.stop();
   }
   render() {
-    return <ProductSingleList key={this.state.products._id} products={this.state.products}/>;
+    return <ProductsSingleList key={this.state.products._id} products={this.state.products}/>;
   }
 }

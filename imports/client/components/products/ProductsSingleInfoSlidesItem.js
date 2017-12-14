@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProductSlidesItem = (props) => {
+const ProductsSingleInfoSlidesItem = (props) => {
   return (
     <div className={props.classes}>
       <img src={props.image_src} srcSet={props.image_srcSet} sizes={props.sizes} className="slide-pic"/>
@@ -8,4 +8,4 @@ const ProductSlidesItem = (props) => {
   );
 };
 
-export default ProductSlidesItem;
+export default ProductsSingleInfoSlidesItem;
