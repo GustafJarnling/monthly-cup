@@ -5,7 +5,7 @@ const ProductsListItem = (props) => {
     <div className="box-1">
       <div className="box-1-component-1">
         <a href="#" className="box-1-component-2 w-inline-block">
-          <h3>{props.title}</h3>
+          <h3>{props.name}</h3>
         </a>
         <a href="#" className="box-1-component-2 w-inline-block">
           <img src={props.images[0].image_src} srcSet={props.images[0].image_srcset} sizes="(max-width: 991px) 148px, 19vw" className="image"/>
