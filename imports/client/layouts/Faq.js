@@ -4,7 +4,6 @@ import NavBar from '../components/menus/nav-bar/NavBar';
 import WrapperSection from '../components/partials/WrapperSection';
 import HeaderPage from '../components/partials/HeaderPage';
 import FaqsListContainer from '../components/faqs/FaqsListContainer';
-import Seperator from '../components/partials/Seperator';
 import ActionsBigButtonContainer from '../components/actions/big/button/ActionsBigButtonContainer';
 import ActionsSmallContainer from '../components/actions/small/ActionsSmallContainer';
 import Footer from '../components/menus/footer/Footer';
@@ -17,7 +16,6 @@ export default () => {
           <HeaderPage title="Frequently Asked Questions"/>
       </WrapperSection>
       <FaqsListContainer/>
-      <Seperator/>
       <ActionsBigButtonContainer/>
       <ActionsSmallContainer/>
       <Footer/>
