@@ -52,7 +52,7 @@ const ProductSingleInfo = (props) => {
                           </div>
                         </div>
                         <div className="box-4-component-13">
-                          <div className="p-small">{props.reviews}</div>
+                          <div className="p-small">2143</div>
                         </div>
                       </div>
                     </div>

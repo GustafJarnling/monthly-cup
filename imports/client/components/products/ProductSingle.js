@@ -13,8 +13,6 @@ const ProductSingle = (props) => {
         price_single={props.price[0].price_single}
         price_subscription={props.price[0].price_subscription}
         properties={props.properties}
-        rating={props.rating}
-        reviews={props.reviews}
       />
       <ProductSingleDescription
         title="Product description"
