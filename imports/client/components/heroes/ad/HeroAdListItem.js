@@ -28,7 +28,7 @@ const HeroAdListItem = (props) => {
               <div className="box-5-component-2">
                 <div className="box-5-component-3">
                   <a href="#" className="button-1 button-expand w-button">
-                    {props.button_subscription_text} <span className="w-hidden-tiny">({props.price_subscription})</span>
+                    {props.button_subscription_text} <span className="w-hidden-tiny">({props.price_subscription}/Mo)</span>
                   </a>
                 </div>
               </div>
