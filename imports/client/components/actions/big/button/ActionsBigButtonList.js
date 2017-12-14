@@ -1,16 +1,15 @@
 import React from 'react';
 
+import WrapperSection from '../../../partials/WrapperSection';
 import ActionsBigButtonListItem from './ActionsBigButtonListItem';
 
 const ActionsBigButtonList = (props) => {
   return (
-    <div className="section-1">
-      <div className="container w-container">
-        {props.actionsBigButton.map((action) => {
-          return <ActionsBigButtonListItem key={action._id} {...action}/>
-        })}
-      </div>
-    </div>
+    <WrapperSection>
+      {props.actionsBigButton.map((action) => {
+        return <ActionsBigButtonListItem key={action._id} {...action}/>
+      })}
+    </WrapperSection>
   );
 };
 
