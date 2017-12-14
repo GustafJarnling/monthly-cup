@@ -1,6 +1,7 @@
 import React from 'react';
 
 import NavBar from '../components/menus/nav-bar/NavBar';
+import WrapperSection from '../components/partials/WrapperSection';
 import HeaderPage from '../components/partials/HeaderPage';
 import FaqsListContainer from '../components/faqs/FaqsListContainer';
 import Seperator from '../components/partials/Seperator';
@@ -12,11 +13,9 @@ export default () => {
   return (
     <div>
       <NavBar/>
-      <div className="section-1">
-        <div className="container w-container">
+      <WrapperSection>
           <HeaderPage title="Frequently Asked Questions"/>
-        </div>
-      </div>
+      </WrapperSection>
       <FaqsListContainer/>
       <Seperator/>
       <ActionsBigButtonContainer/>

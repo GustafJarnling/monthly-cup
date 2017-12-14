@@ -3,6 +3,7 @@ import React from 'react';
 import NavBar from '../components/menus/nav-bar/NavBar';
 import HeroAdContainer from '../components/heroes/ad/HeroAdContainer';
 import ActionsBigSocialContainer from '../components/actions/big/social/ActionsBigSocialContainer';
+import WrapperSection from '../components/partials/WrapperSection';
 import ProductsListContainer from '../components/products/ProductsListContainer';
 import HeaderInline from '../components/partials/HeaderInline';
 import ReviewsListContainer from '../components/reviews/ReviewsListContainer';
@@ -17,12 +18,10 @@ export default () => {
       <NavBar/>
       <HeroAdContainer/>
       <ActionsBigSocialContainer/>
-      <div className="section-1">
-        <div className="container w-container">
+      <WrapperSection>
           <HeaderInline title="Products"/>
           <ProductsListContainer/>
-        </div>
-      </div>
+      </WrapperSection>
       <ReviewsListContainer/>
       <Seperator/>
       <HeroInfoContainer/>
