@@ -14,7 +14,7 @@ const ProductsListItem = (props) => {
           <div className="p-big">{props.slogan}</div>
         </a>
         <div className="box-1-component-2">
-          <a href="#" className="button-1 w-button">View product</a>
+          <a href={props.link_button_ref} className="button-1 w-button">{props.link_button_text}</a>
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@ const ProductsListItem = (props) => {
 
 ProductsListItem.propTypes = {
   _id: React.PropTypes.string.isRequired,
-  title: React.PropTypes.string.isRequired,
+  name: React.PropTypes.string.isRequired,
   slogan: React.PropTypes.string.isRequired,
   images: React.PropTypes.array.isRequired
 };
