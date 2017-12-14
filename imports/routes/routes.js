@@ -6,6 +6,7 @@ import Comparison from '../client/layouts/Comparison';
 import Faq from '../client/layouts/Faq';
 import NotFound from '../client/layouts/NotFound';
 import Product from '../client/layouts/Product';
+import Products from '../client/layouts/Products';
 
 export const routes = (
   <Router history={browserHistory}>
@@ -13,6 +14,7 @@ export const routes = (
     <Route path="/comparison" component={Comparison}/>
     <Route path="/faq" component={Faq}/>
     <Route path="/product" component={Product}/>
+    <Route path="/products" component={Products}/>
     <Route path="*" component={NotFound}/>
   </Router>
 );

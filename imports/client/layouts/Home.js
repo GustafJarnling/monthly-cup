@@ -16,7 +16,18 @@ export default () => {
       <NavBar/>
       <HeroAdContainer/>
       <ActionsBigSocialContainer/>
-      <ProductsListContainer/>
+      <div className="section-1">
+        <div className="container w-container">
+          <div className="content-wrapper-1">
+            <div className="content-component-1">
+              <h2>Products</h2>
+            </div>
+          </div>
+          <div className="grid-wrapper-1">
+            <ProductsListContainer/>
+          </div>
+        </div>
+      </div>
       <ReviewsListContainer/>
       <Seperator/>
       <HeroInfoContainer/>
