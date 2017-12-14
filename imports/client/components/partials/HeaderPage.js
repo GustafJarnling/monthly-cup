@@ -1,8 +1,8 @@
 import React from 'react';
 
-const SimpleHeader = (props) => {
+const HeaderPage = (props) => {
   return (
-    <div className="content-wrapper-1 content-wrapper-1">
+    <div className="content-wrapper-1 content-wrapper-1-is-last">
       <div className="content-component-1">
         <h2>{props.title}</h2>
       </div>
@@ -10,8 +10,8 @@ const SimpleHeader = (props) => {
   );
 };
 
-SimpleHeader.propTypes = {
+HeaderPage.propTypes = {
   title: React.PropTypes.string.isRequired
 };
 
-export default SimpleHeader;
+export default HeaderPage;

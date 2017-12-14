@@ -4,7 +4,7 @@ import NavBar from '../components/menus/nav-bar/NavBar';
 import HeroAdContainer from '../components/heroes/ad/HeroAdContainer';
 import ActionsBigSocialContainer from '../components/actions/big/social/ActionsBigSocialContainer';
 import ProductsListContainer from '../components/products/ProductsListContainer';
-import SimpleHeader from '../components/partials/SimpleHeader';
+import HeaderInline from '../components/partials/HeaderInline';
 import ReviewsListContainer from '../components/reviews/ReviewsListContainer';
 import Seperator from '../components/partials/Seperator';
 import HeroInfoContainer from '../components/heroes/info/HeroInfoContainer';
@@ -19,7 +19,7 @@ export default () => {
       <ActionsBigSocialContainer/>
       <div className="section-1">
         <div className="container w-container">
-          <SimpleHeader title="Products"/>
+          <HeaderInline title="Products"/>
           <ProductsListContainer/>
         </div>
       </div>
