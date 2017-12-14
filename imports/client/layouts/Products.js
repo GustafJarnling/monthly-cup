@@ -1,6 +1,7 @@
 import React from 'react';
 
 import NavBar from '../components/menus/nav-bar/NavBar';
+import HeaderWithSubtitle from '../components/partials/HeaderWithSubtitle';
 import ProductsListContainer from '../components/products/ProductsListContainer'
 import Seperator from '../components/partials/Seperator';
 import ActionsBigButtonContainer from '../components/actions/big/button/ActionsBigButtonContainer';
@@ -13,18 +14,10 @@ export default () => {
       <NavBar/>
       <div className="section-1">
         <div className="container w-container">
-          <div className="content-wrapper-2 content-wrapper-2-is-last">
-            <div className="content-wrapper-3">
-              <div className="content-component-1">
-                <h2>Products</h2>
-              </div>
-            </div>
-            <div className="content-wrapper-3">
-              <div className="content-component-1">
-                <div className="p-big">Easy to use, safe, and better alternative to pads and tampons. No strings attached.</div>
-              </div>
-            </div>
-          </div>
+          <HeaderWithSubtitle
+            title="Products"
+            subtitle="Easy to use, safe, and better alternative to pads and tampons. No strings attached."
+          />
         </div>
       </div>
       <div className="section-1">

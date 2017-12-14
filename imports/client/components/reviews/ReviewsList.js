@@ -1,16 +1,13 @@
 import React from 'react';
 
+import HeaderInline from '../partials/HeaderInline';
 import ReviewsListItem from './ReviewsListItem';
 
 const ReviewsList = (props) => {
   return (
     <div className="section-1">
       <div className="container w-container">
-        <div className="content-wrapper-1">
-          <div className="content-component-1">
-            <h2>Happy customers</h2>
-          </div>
-        </div>
+        <HeaderInline title="Happy customers"/>
         <div className="content-wrapper-1">
           <div className="grid-wrapper-1">
             {props.reviews.map((review) => {

@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeaderWithSubtitle = (props) => {
   return (
-    <div className="content-wrapper-2">
+    <div className="content-wrapper-2 content-wrapper-2-is-last">
       <div className="content-wrapper-3">
         <div className="content-component-1">
           <h2>{props.title}</h2>
