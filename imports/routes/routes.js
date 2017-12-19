@@ -2,6 +2,7 @@ import React from 'react';
 import { Router, Route, browserHistory } from 'react-router';
 
 import App from '../App';
+import ChangeCup from '../client/layouts/ChangeCup';
 import Comparison from '../client/layouts/Comparison';
 import Faq from '../client/layouts/Faq';
 import History from '../client/layouts/History';
@@ -14,6 +15,7 @@ import WhichCupShouldIHave from '../client/layouts/WhichCupShouldIHave';
 export const routes = (
   <Router history={browserHistory}>
     <Route path="/" component={App}/>
+    <Route path="/change-cup" component={ChangeCup}/>
     <Route path="/comparison" component={Comparison}/>
     <Route path="/faq" component={Faq}/>
     <Route path="/history" component={History}/>
