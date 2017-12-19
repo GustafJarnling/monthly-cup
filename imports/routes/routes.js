@@ -8,6 +8,7 @@ import History from '../client/layouts/History';
 import NotFound from '../client/layouts/NotFound';
 import Product from '../client/layouts/Product';
 import Products from '../client/layouts/Products';
+import Projects from '../client/layouts/Projects';
 import WhichCupShouldIHave from '../client/layouts/WhichCupShouldIHave';
 
 export const routes = (
@@ -18,6 +19,7 @@ export const routes = (
     <Route path="/history" component={History}/>
     <Route path="/product" component={Product}/>
     <Route path="/products" component={Products}/>
+    <Route path="/projects" component={Projects}/>
     <Route path="/which-cup-should-i-have" component={WhichCupShouldIHave}/>
     <Route path="*" component={NotFound}/>
   </Router>
