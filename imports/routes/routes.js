@@ -4,6 +4,7 @@ import { Router, Route, browserHistory } from 'react-router';
 import App from '../App';
 import ChangeCup from '../client/layouts/ChangeCup';
 import Comparison from '../client/layouts/Comparison';
+import Contact from '../client/layouts/Contact';
 import Faq from '../client/layouts/Faq';
 import History from '../client/layouts/History';
 import NotFound from '../client/layouts/NotFound';
@@ -17,6 +18,7 @@ export const routes = (
     <Route path="/" component={App}/>
     <Route path="/change-cup" component={ChangeCup}/>
     <Route path="/comparison" component={Comparison}/>
+    <Route path="/contact" component={Contact}/>
     <Route path="/faq" component={Faq}/>
     <Route path="/history" component={History}/>
     <Route path="/product" component={Product}/>
